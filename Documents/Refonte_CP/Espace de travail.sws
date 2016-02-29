@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner signature="Workspace" version="15.3.0.3445"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Workspace>
+	<Local Expanded="Yes">
+		<Model Expanded="Yes" ID="{360C3BF1-1FA3-48AB-B566-6A44A08F5D3B}" Loaded="No" Name="Refonte_CP" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="Refonte_CP.prj"/>
+		<Model Expanded="Yes" ID="{360C3BF1-1FA3-48AB-B566-6A44A08F5D3B}" Name="Refonte_CP" Selected="Yes" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="Refonte_CP.prj"/>
+	</Local>
+	<BrowserModule Name="Référentiel"/>
+</Workspace>

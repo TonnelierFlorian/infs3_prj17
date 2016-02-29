@@ -1,0 +1,5 @@
+Obtenir toutes les infos d'un membre :
+  SELECT id,nom,prenom,email,inscription 
+  FROM membres
+  WHERE id = ?
+  

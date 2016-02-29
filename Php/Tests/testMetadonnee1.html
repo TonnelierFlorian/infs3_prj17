@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<script>
+			changementListe = function(value){
+				nouvelleMeta(value);
+			}
+			nouvelleMeta = function(value){
+				document.getElementById('zoneMeta').innerHTML += "<input type='text' onBlur='save(this.value,this.name)' name='meta["+value+"]' placeholder='"+value+"'>";	
+			}
+		</script>
+	
+	</head>
+	<body>
+		<form id='form' name='form' action='traitementMetadonnees.php' method='post'>
+			<input type='text' name='test1[]' class='meta' placeholder='numero1'>
+			<input type='text' name='test1[]' class='meta' placeholder='chaine1'> 
+			<input type='text' name='test1[]' class='meta' placeholder='chaine2'> 
+			<input type='text' name='test1[]' class='meta' placeholder='chaine3'>
+			<br>
+			<select name='liste' onChange="changementListe(this.value)">
+				<option selected disabled="" value="">Rajoutez une metadonnée</option>
+				<option value='hauteur'>Hauteur</option>
+				<option value='date'>Date</option>
+				<option value='editeur'>Editeur</option>
+			</select>
+			<br>
+			<div id='zoneMeta'>
+				
+			</div>
+			<input type='submit' value='Envoyeeeee' name='bouton'>
+		</form>
+	</body>
+</html>
